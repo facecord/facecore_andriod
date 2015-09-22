@@ -1,0 +1,37 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:gravity="center"
+    android:orientation="vertical"
+    android:weightSum="1"
+    tools:context="cn.facecore.facecoredemo.MainActivity" >
+
+    <Button
+        android:id="@+id/button_detect"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_margin="10dp"
+        android:layout_weight="0.2"
+        android:text="获取特征值" />
+
+    <Button
+        android:id="@+id/button_compare"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_margin="10dp"
+        android:layout_weight="0.2"
+        android:text="对比相似度" />
+
+    <TextView
+        android:id="@+id/textView1"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:gravity="center"
+        android:layout_margin="10dp"
+        android:layout_weight="0.2"
+        android:text="FaceCore人脸识别开放平台-www.faceCore.cn
+QQ群：343805354
+技术支持：facecore@qq.com" />
+
+</LinearLayout>
